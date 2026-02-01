@@ -1,84 +1,344 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>My Resume</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Govinda Reddy | Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-    <h1>Govinda Reddy Manne</h1>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">GOVINDA REDDY MANNE</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#internship">Internship</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+            <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-    <!-- Profile Photo -->
-    <img src="profile.jpeg" alt="Profile Photo" width="150">
+    <!-- Hero Section -->
+    <section id="home" class="hero d-flex align-items-center justify-content-center" style="background: linear-gradient(135deg, #5c0fff, #1a8cff); min-height: 100vh;">
+    <div class="container text-center">
+    <img
+      src="profile.jpg"
+      alt="Profile Picture"
+      class="hero-img img-fluid mb-3 rounded-circle"
+      style="width: 180px; height: 180px; object-fit: cover; border: 4px solid white;"
+    />
+    <div class="text-white">
+      <p class="fw-bold mb-1">Welcome to My Portfolio</p>
+      <h1 class="fw-bold mb-2">GOVINDA REDDY MANNE</h1>
+      <p class="mb-4 fw-semibold">Aspiring Software Development Engineer | AI/ML Enthusiast | Data Science Learner</p>
+      <a href="#about" class="btn btn-outline-light btn-lg px-4 rounded-pill">Explore My Journey</a>
+    </div>
+  </div>
+</section>
 
-    <h2>Summary</h2>
-    <p>
-        A motivated and detail-oriented aspiring web developer with a strong
-        interest in building user-friendly web applications and learning modern
-        web technologies.
-    </p>
 
-    <hr>
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center fw-bold text-warning mb-4">About Me</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-9 text-center">
+            <p>
+              B.Tech Computer Science and Engineering student with a strong foundation in Java and Python, specializing in Artificial Intelligence and Data Science. 
+              Possess basic knowledge of data analysis, machine learning concepts, and intelligent system development. 
+              Skilled in problem-solving and applying AI and data-driven techniques to real-world scenarios. 
+              A motivated fresher, quick learner, and eager to grow in the field of AI and Data Science. 
+            </p>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <a
+            href="Govind.pdf"
+            class="btn btn-info px-4 py-2 fw-bold"
+            target="_blank"
+            >My Resume</a
+          >
+        </div>
+      </div>
+    </section>
 
-    <h2>Education</h2>
-    <ul>
-        <li>
-            <strong>Bachelor of Technology (B.Tech)</strong><br>
-            MVRS College of Engineering and Technology<br>
-            2023 – 2027
-        </li>
-        <li>
-            <strong>Intermediate</strong><br>
-            KV Subba Reddy Junior College<br>
-            2021 – 2023
-        </li>
-    </ul>
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center fw-bold text-primary mb-4">Skills</h2>
+        <div class="row">
+          <div class="col-md-3 mb-3">
+            <div class="card text-center shadow-sm">
+              <div class="card-body">
+                <h5 class="fw-bold text-primary">Programming</h5>
+                <p>Python, Java, Data Structures & Algorithms</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card text-center shadow-sm">
+              <div class="card-body">
+                <h5 class="fw-bold text-secondary">Frameworks & Libraries</h5>
+                <p>NumPy, Pandas, Matplotlib, SciPy</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card text-center shadow-sm">
+              <div class="card-body">
+                <h5 class="fw-bold text-danger">Databases & Tools</h5>
+                <p>SQL,GitHub, VS Code, Jupyter Notebook</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card text-center shadow-sm">
+              <div class="card-body">
+                <h5 class="fw-bold text-info">Soft Skills</h5>
+                <p>Teamwork, Adaptability, Time Management, Patience</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <hr>
+    <!-- Projects Section -->
+      <section id="projects" class="py-5">
+      <div class="container">
+      <h2 class="text-center fw-bold text-primary mb-4">Projects</h2>
+      <div class="row">
 
-    <h2>Work Experience</h2>
-    <ul>
-        <li>
-            <strong>Web Development Intern</strong><br>
-            ABC Tech Solutions<br>
-            April 2026 – June 2026
+    <!-- Milk Centre Diary Management System -->
+    <div class="col-md-6 mb-4">
+    <div class="card p-3 shadow-sm">
+      <h5 class="card-title">Milk Centre Diary Management System</h5>
+
+      <p>
+        <strong>Overview:</strong>
+        A digital dairy management system that automates daily milk collection,
+        billing, and reporting for farmers using a web-based interface.
+      </p>
+
+      <p>
+        <strong>Key Features:</strong>
+        Farmer registration, morning & evening milk entry, duplicate session prevention,
+        automatic amount calculation (Quantity × Fat × Rate),
+        15-day billing cycle, PDF bill generation, and SMS notifications.
+      </p>
+
+      <p>
+        <strong>Roles:</strong>
+        Admin (Milk Centre Operator), Farmers
+      </p>
+
+      <p>
+        <strong>User Capabilities:</strong>
+        Register farmers, record daily milk supply, generate date-wise and
+        period-wise reports, download individual farmer bills, and send SMS
+        billing notifications.
+      </p>
+
+      <p>
+        <strong>Improvements:</strong>
+        Eliminates manual diary errors, ensures transparent billing,
+        prevents duplicate entries, and improves operational efficiency.
+      </p>
+
+      <p>
+        <strong>Tech Stack:</strong>
+        Python, Streamlit, MySQL, Pandas, ReportLab (PDF), Twilio (SMS)
+      </p>
+
+      <a href="https://github.com/Govindareddymanne/Milk-Centre-Diary-Management-System"
+        target="_blank"
+        class="btn btn-primary mt-2">
+        🔗 View on GitHub
+      </a>
+    </div>
+  </div>
+  
+      <!-- Daily Personal Money Tracker App -->
+      <div class="col-md-6 mb-4">
+      <div class="card p-3 shadow-sm">
+        <h5 class="card-title">Daily Personal Money Tracker Application</h5>
+
+        <p>
+          <strong>Overview:</strong>
+          A personal finance management application designed to help users
+          track daily income, expenses, and savings in a simple and structured way.
+        </p>
+
+        <p>
+          <strong>Key Features:</strong>
+          Daily expense and income logging, category-wise tracking,
+          automatic balance calculation, date-range reports,
+          monthly summaries, and visual analytics.
+        </p>
+
+        <p>
+          <strong>Roles:</strong>
+          Individual User
+        </p>
+
+        <p>
+          <strong>User Capabilities:</strong>
+          Add daily transactions, categorize expenses,
+          view spending patterns, monitor savings,
+          and analyze financial habits over time.
+        </p>
+
+        <p>
+          <strong>Improvements:</strong>
+          Encourages better money management,
+          reduces unnecessary spending,
+          and provides clear insights into personal finances.
+        </p>
+
+        <p>
+          <strong>Tech Stack:</strong>
+          Python, Streamlit, SQLite/MySQL, Pandas, Matplotlib
+        </p>
+
+        <a href="#"
+          target="_blank"
+          class="btn btn-primary mt-2">
+          🔗 View on GitHub
+        </a>
+      </div>
+    </div>
+
+     <!-- AI-Powered Crop Yield Prediction App -->   
+    <div class="col-md-6 mb-4">
+      <div class="card p-3 shadow-sm">
+        <h5 class="card-title">AI-Powered Crop Yield Prediction System</h5>
+
+        <p>
+          <strong>Overview:</strong>
+          An intelligent machine learning application that predicts crop yield based on
+          environmental and agricultural factors to support data-driven farming decisions.
+        </p>
+
+        <p>
+          <strong>Key Features:</strong>
+          Crop-wise yield prediction, rainfall and temperature analysis,
+          pesticide impact evaluation, model training with performance metrics,
+          and interactive visualizations.
+        </p>
+
+        <p>
+          <strong>Roles:</strong>
+          Farmer, Researcher, Agricultural Analyst
+        </p>
+
+        <p>
+          <strong>User Capabilities:</strong>
+          Select crop type, input climate conditions,
+          train ML models, predict yield values,
+          and analyze feature importance and error distributions.
+        </p>
+
+        <p>
+          <strong>Improvements:</strong>
+          Helps optimize crop planning,
+          improves yield forecasting accuracy,
+          reduces agricultural risk,
+          and supports precision farming.
+        </p>
+
+        <p>
+          <strong>Tech Stack:</strong>
+          Python, Streamlit, Scikit-learn, Pandas, Matplotlib, Seaborn
+        </p>
+
+        <a href="https://github.com/Govindareddymanne/AI-Powered-Crop-Yield-Prediction-System" target="_blank" class="btn btn-primary mt-2">
+          🔗 View on GitHub
+        </a>
+      </div>
+    </div>
+
+      
+</section>
+
+
+    <!-- Education Section -->
+    <section id="education" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center fw-bold text-info mb-4">Education</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="card text-center p-3 shadow-sm">
+              <h5 class="card-title">B.Tech in Artificial Intelligence and Data Science</h5>
+              <p>MVRS College of Engineering & Technology,Vijayawada</p>
+              <p><strong>CGPA:</strong> 7.41 (Pursuing)</p>
+              <p><strong>Duration:</strong> 2023 - 2027</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="py-5">
+      <div class="container">
+        <h2 class="text-center fw-bold text-warning mb-4">Achievements & Certifications</h2>
+        <ul class="list-group">
+          <li class="list-group-item">🏆 District-Level Cricket Player with strong teamwork, discipline, and competitive spirit</li>
+          <li class="list-group-item">🎯 Student Coordinator, Institution Innovation Council (IIC) – organized CODEZEN 2K24</li>
+          <li class="list-group-item">📜 Certifications:
             <ul>
-                <li>Developed basic web pages using HTML</li>
-                <li>Assisted in testing and debugging websites</li>
-                <li>Worked with a team to improve website structure</li>
+              <li>Full Stack Web Development </li>
+              <li>Java Programming </li>
+              <li>Python Programming </li>
             </ul>
-        </li>
-    </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-    <hr>
+    <!-- Contact Section -->
+    <section id="contact" class="pb-5 text-center">
+      <div class="container">
+        <h2 class="fw-bold text-primary mb-3">Contact Me</h2>
+        <p>Email: <a href="mailto:mannegovindareddy@gmail.com">mannegovindareddy@gmail.com</a></p>
+        <p>Phone: +91 8074103991</p>
+        <div class="mt-3">
+          <a href="https://www.linkedin.com/in/govinda-reddy" target="_blank" class="btn btn-info text-white m-2"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          <a href="https://github.com/Govindareddymanne" target="_blank" class="btn btn-dark m-2"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+      </div>
+    </section>
 
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML5</li>
-        <li>Basic Git & GitHub</li>
-        <li>Problem Solving</li>
-        <li>Communication Skills</li>
-    </ul>
-
-    <hr>
-
-    <h2>Awards & Certifications</h2>
-    <ul>
-        <li>Certificate in Web Development Basics</li>
-        <li>Participation in College Hackathon</li>
-    </ul>
-
-    <hr>
-
-    <h2>More About Me</h2>
-    <ul>
-        <li><a href="hobbies.html">My Hobbies</a></li>
-        <li><a href="contact.html">Contact Me</a></li>
-    </ul>
-
-    <footer>
-        <p>© 2026 Govinda Reddy Manne. All rights reserved.</p>
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      <p>© 2025 Govinda Reddy Manne | All Rights Reserved</p>
     </footer>
 
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
